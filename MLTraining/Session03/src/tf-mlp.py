@@ -27,7 +27,7 @@ class MLP:
         )
 
         biases_1 = tf1.get_variable(
-            name = 'iases_input_hidden',
+            name = 'biases_input_hidden',
             shape = (self._hidden_size),
             initializer = tf.random_normal_initializer(seed=2021)
         )
