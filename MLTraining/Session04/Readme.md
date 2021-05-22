@@ -1,5 +1,7 @@
 ## Coder: Nguyễn Huy Hoàng
-## Tensorflow version 2.0
+## Sử dụng mô hình RNN để phân loại bài viết
+
+Tensorflow version 2.0
 
 1. Thiết lập khối lượng train ``` max_step training = 5000 ``` (sau epoch thứ 5 thì độ chính xác không thay đổi nhiều)
 1. Các file encoded đã được tạo sẵn trong ``` datasets/w2v ```
